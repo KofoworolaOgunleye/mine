@@ -2,7 +2,7 @@ FROM tiangolo/uvicorn-gunicorn:python3.8
 
 LABEL maintainer="Sebastian Ramirez <tiangolo@gmail.com>"
 
-WORKDIR /app
+WORKDIR /main
 
 COPY requirements.txt ./
 
